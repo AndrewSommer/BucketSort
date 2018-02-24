@@ -1,5 +1,6 @@
 /**
  * This abstract class contains static methods to sort an array using the bucket sort method
+ *
  * @author Andrew Sommer
  * @version 1.0.0 06 February 2018
  */
@@ -8,6 +9,7 @@ public abstract class BucketSort {
     /**
      * Inputs an unsorted array, and uses the bucket sort method to return a sorted array
      * This method calls the private method bucketIndex to help
+     *
      * @param arrayToBeSorted
      * @return int[] sortedArray
      */
@@ -57,8 +59,9 @@ public abstract class BucketSort {
     /**
      * This is a helper method for sort. It takes in a number and and index, and returns the value at the
      * tens place of that index
-     * @param num   value wanted the tens place from
-     * @param digitWanted   what tens place is wanted to return
+     *
+     * @param num         value wanted the tens place from
+     * @param digitWanted what tens place is wanted to return
      * @return int number at that location of the input value
      */
     private static int bucketIndex(int num, int digitWanted) {
